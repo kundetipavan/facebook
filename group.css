@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body{
+    background-color: rgba(240, 248, 255, 0.83);
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 9px;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    position: fixed;
+  }
+  header i{
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  #fa{
+    background-color: rgb(36, 36, 253);
+    color: white;
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+  #fa1{
+    background-color: aliceblue;
+  }
+  .i2 i{
+    margin: 0px 30px;
+  }
+  .i2 i:hover{
+    color:rgb(105, 105, 244) ;
+  }
+  .i3 i{
+    background-color: aliceblue;
+  }
+
+  /*------ friends-----*/
+  #home{
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
+    position: fixed;
+    margin-top: 3.5em;
+  }
+  #home input{
+    padding: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px;
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+    margin-top: 0.5em;
+  
+  }
+  .frnd{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .frnd i{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0.2em; 
+  }
+  .home-msg{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .home-msg:hover{
+    background-color: rgba(128, 128, 128, 0.284);
+    border-radius: 10px;
+  }
+
+  .ichome{
+    display: flex;
+    gap: 10px;
+  }
+  .home-msg i{
+    font-size: 25px;
+  }
+   #fab{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0.4em; 
+    background-color: rgba(128, 128, 128, 0.682);
+  }
+   #fab:active{
+    background-color: rgba(12, 12, 223, 0.504);
+  }
+
+  .home-msg h3{
+    margin-top: 0.3em;
+  }
+  .fa-solid.fa-greater-than{
+    margin-top: 0.5em;
+  }
+  #message{
+    display: flex;
+  }
+  #home button{
+    margin-top: 3em;
+    width: 100%;
+
+  }
+
+  /*------grp----*/
+  #grp{
+    margin-left: 40%;
+    margin-top: 7em;
+  }
+  #grp h3{
+    margin-left: 8%;
+  }
+  .grp1{
+    width: 100%;
+    height: 90%;
+    padding: 8em;
+    background-color: rgba(128, 128, 128, 0.249);
+    border-radius: 30px;
+    
+  }
+  .grp1 i{
+    font-size: 90px;
+    padding-left: 40%;
+  }
+  .grp1 p{
+    padding-left: 25%;
+  }
+  .grp1 button{
+    margin-left:30% ;
+  }
+#ph{
+  display: none;
+}
+
+    /*------- phone screen-----*/
+    @media only screen and (max-width:768px){
+
+
+      header{
+        display: flex;
+        background-color: white;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+      }
+      .bx.bxl-messenger , .bx.bxs-bell{
+        display: block;
+      }
+    
+      header i{
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .i2{
+        display: flex;
+        margin-left: 1px;
+      }
+      .i2 i:hover{
+        color:rgb(105, 105, 244) ;
+      }
+      .i3 , .i1{
+        display: none;
+      }
+    
+    
+      .home-msg{
+        display: none;
+      }
+      #home{
+        position: relative;
+        display: none;
+      }
+
+      #ph{
+        margin-top: 9em;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .phn{
+        display: flex;
+      }
+
+        /*------grps----*/
+  #grp{
+    margin-left: 1%;
+    margin-top: 7em;
+  }
+  #grp h3{
+    margin-left: 1%;
+    font-size: 10px;
+  }
+  .grp1{
+    margin-left: 1px;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    background-color: rgba(128, 128, 128, 0.249);
+    border-radius: 30px;
+    
+  }
+  .grp1 i{
+    font-size: 90px;
+    padding-left: 38%;
+  }
+  .grp1 p{
+    padding-left: 5%;
+  }
+  .grp1 button{
+    margin-left:5% ;
+  }
+
+    }  

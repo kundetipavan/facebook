@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: aliceblue;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 9px;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+header i{
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#fa{
+  background-color: rgb(36, 36, 253);
+  color: white;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+#fa1{
+  background-color: aliceblue;
+}
+.i2 i{
+  margin: 0px 30px;
+}
+.i2 i:hover{
+  color:rgb(105, 105, 244) ;
+}
+.i3 i{
+  background-color: aliceblue;
+}
+
+
+
+
+.mini{
+  width: 100%;
+  min-height: 100vh;
+}
+.mini1{
+  background-color: aliceblue;
+  width: 470px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 130px;
+  border-radius: 10px;
+  padding-bottom: 10%;
+}
+.mini2{
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  height: 140px;
+  padding-left: 15px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+#bxs{
+  background-color: gainsboro;
+  border-radius: 50%;
+  padding: 11px;
+  cursor: pointer;
+}
+.mini2 input{
+  padding: 10px;
+  border-radius: 15px;
+  width: 390px;
+  outline: none;
+  border: none;
+  background-color: gainsboro;
+}
+.line{
+  border-top: 1px solid #222;
+  opacity: 0.2;
+  width: 440px;
+}
+.mini3{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mini3 button{
+  border: none;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.mini3 button:hover{
+  background-color: gainsboro;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#bb{
+  color: red;
+  font-size: 20px;
+}
+#bb1{
+  color: green;
+  font-size: 20px;
+}
+#bb2{
+  color: rgb(248, 25, 129);
+  font-size: 20px;
+}
+
+
+
+.main-scroll-div{
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+.scroll-img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+}
+.scroll-img::-webkit-scrollbar{
+  -webkit-appearance:none;
+}
+.child{
+  min-width: 160px;
+  height: 250px;
+  cursor: pointer;
+  border: 1px solid white;
+  overflow: hidden;
+  margin: 0px 3px;
+  border-radius: 15px;
+
+}
+.child-img{
+  width: 100%;
+  height: 100vh;
+  border-radius: 15px;
+}
+.mont{
+  display: flex;
+  font-family: "Segoe UI";
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 0px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+.mont button{
+  border: none;
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin-left: 30px;
+  padding: 0px 5px;
+  color: black;
+  cursor: pointer;
+}
+.mont button:hover{
+  background-color:rgb(193, 191, 191) ;
+  cursor: pointer;
+}
+.mont i{
+  font-size: 1.5rem;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.mont p{
+  font-size: .9rem;
+}
+
+.mini-mont{
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+.mont1{
+  display: flex;
+}
+.mont1 img{
+  border-radius: 50%;
+  cursor: pointer;
+}
+#spa{
+  margin-left: 210px;
+  margin-top: 10px;
+}
+#spa i{
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#mon{
+  background-color:rgb(36, 36, 253) ;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+}
+.lineb{
+  border-top: 1px solid #222;
+  opacity: 0.2;
+  width: 440px;
+  margin-left: 10px;
+}
+.mont2{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mont2 button{
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: gray;
+}
+.mont2 button:hover{
+  background-color: gainsboro;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mont2 i{
+  color: gray;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
